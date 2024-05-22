@@ -80,7 +80,7 @@ def pixel_sorter(img_path,
     ---
     Output
     ---
-    Return an image array with sorted pixels.\n
+    Return an image with sorted pixels.\n
     ---
     Modes
     ---
@@ -138,4 +138,6 @@ def pixel_sorter(img_path,
     if vertical == True:
         output_array=np.transpose(output_array, (1,0,2))
 
-    return output_array
+    output_img = Image.fromarray(output_array)
+
+    return output_img
