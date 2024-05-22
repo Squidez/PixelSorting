@@ -1,5 +1,9 @@
 # Pixel Sorting
 Pixel Sorting is a form of glitch art, wich aims to create glitchy images by rearanging their pixels according to several parameters.
+<figure>
+    <img src="https://github.com/Squidez/PixelSorting/blob/main/example.jpg" alt="Example of pixel sorted image" />
+    <figcaption>Original image by Daniel Leone (https://unsplash.com/fr/photos/p1qtao69f2M)</figcaption>
+</figure>
 
 ## Usage
 To use the script call the _pixel_sorter_ function.
